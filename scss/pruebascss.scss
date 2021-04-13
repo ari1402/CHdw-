@@ -1,0 +1,45 @@
+$font-family: 'Karla' ;
+
+
+h1, h2, h3, h4 {
+    font-family: $font-family;
+    
+}
+
+.quienes-somos-titulo {
+    font-family: $font-family;
+}
+.titulo-footer {
+    font-family: $font-family;
+}
+.titulo-email{
+    font-family: $font-family;
+}
+main h2{
+    font-family: $font-family;
+}
+main h3{
+    font-family: $font-family;
+}
+div h4 { 
+    font-family: $font-family;
+}
+.ser-heroe { 
+    font-family: $font-family;
+}
+.titulo-transitos{ 
+    @extend .titulo-contactanos;
+}
+
+@mixin sizes ($height, $width) {
+    height:$height ;
+    width:$width;
+    
+}
+.animales-heroes {
+    @include sizes(auto,28vw)
+}
+.titulo-traslados { 
+    @extend .titulo-contactanos 
+}
+

@@ -1,0 +1,725 @@
+html { /* etiqueta raíz */
+    font-size: 62.5%;
+}
+nav a:link {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-family: 'Karla';
+    font-weight: 400;
+    
+}
+nav a:hover { 
+    color: blanchedalmond; font-family: 'Karla'; text-decoration: none; font-size: 1.8vw;
+
+}
+nav a:visited {
+    color: blanchedalmond;  font-family: 'Karla'; text-decoration: none;
+}
+/*header*/  
+
+/*fin.header*/
+header{
+    background-color:transparent;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-refugio {
+    width: 100px;
+    height: 100px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+
+nav {
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul { 
+    list-style: none;
+    padding:0;
+    margin: 0;
+    display: flex;
+    justify-content:flex-end;
+}
+
+nav ul a { 
+    padding: 2vw;
+    list-style-type: none;
+    color: blanchedalmond;
+    font-family: 'Karla';
+    font-weight: 700; 
+    font-size: 1.8vw;
+}
+
+body{ 
+    margin: 0;
+    background-color: #F3E2E6;
+}
+main{
+    margin: 0;
+}
+h1 {
+    
+    color: black;
+    display:flex; 
+    justify-content: center;
+    padding: 2vw;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Barlow Condensed', Impact, Arial, sans-serif;
+    font-size: 200px;
+    padding: 2vw;
+    margin: 2vw;
+    -webkit-text-fill-color: whitesmoke; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: darkgrey;
+    text-transform: uppercase;
+    line-height: 80%;
+}
+
+.aqua {
+    text-shadow: 2px 2px white, 8px 10px #6454CC;
+}
+
+.pink {
+    text-shadow: 2px 2px white, 8px 10px #DB9BAE;
+}
+main h2{
+    
+    font-weight: 400;
+    font-size: 4vw;
+}
+
+div h4 {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 5vw;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: #DB9BAE;
+}
+div p { 
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+}
+main p {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: black;
+}
+
+/*main pagina*/ 
+.heroe { 
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+    background-image: url(Imagenes/perrito2.index.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    width: 100%;
+    height: 100vh;  
+}
+
+.ser-heroe {
+    font-family: 'Karla';
+    font-size:8vw;
+    font-weight: bolder;
+    color: blanchedalmond;
+    padding-left: 2vw;
+    margin: 0;
+    padding: 1vw;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.contenedor-index{ 
+    margin: 7vw 0;
+    display: flex;
+    gap: 0.5vw;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+.div-index-h3 { 
+font-size: 4vw;
+display: flex;
+justify-content: center;
+align-items:center;
+align-self: baseline;
+text-decoration: none;
+font-family: 'Barlow Condensed';
+font-weight: 500;
+color: #F3E2E6;
+}
+
+.links-div-main{ 
+    text-decoration: none;
+    color: black;
+}
+.links-div-main:visited{
+    color: black;
+} 
+
+.adopta {
+    background-color: #B7526A;
+    padding: 0.5rem;
+    border: 0.4rem solid #DB9BAE;
+    border-radius: 6px;
+    width: 23%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.traslados {
+    padding: 0.5rem;
+    border: 0.4rem solid #DB9BAE;
+    border-radius: 6px;
+    width: 23%;
+    height: Auto;
+    background-color: #B7526A;
+    display: flex;
+    justify-content: center;
+}
+.transitos {
+    padding: 0.5rem;
+    border: 0.4rem solid #DB9BAE;
+    border-radius: 6px;
+    width: 23%;
+    height: auto;
+    background-color: #B7526A;
+    display: flex;
+    justify-content: center;
+}
+.donaciones { 
+    padding: 0.5rem;
+    border: 0.4rem solid #DB9BAE;
+    border-radius: 6px;
+    width: 23%;
+    height: auto;
+    background-color: #B7526A;
+    display: flex;
+    justify-content: center;
+}
+.quienes-somos-titulo { 
+    font-family:'Montserrat';
+    font-weight: 700;
+    font-size:10vh ;
+    color: #B7526A ;
+    background-color: #DB9BAE;
+    display: flex;
+    justify-content: center;
+    margin: 10vw 2vw;
+    padding: 2vw;
+    
+}
+
+.quienes-somos {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.parrafo-quienes{ 
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 2vw;
+    padding: 2rem;
+    text-align: justify;
+}
+.imgquienes-somos {
+    margin: 2vw;
+    width: 40vw;
+    padding: 0rem;
+    border: dotted 0.5vw pink;
+    border-style: dotted;
+}
+
+
+.direccion { 
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: baseline;
+    align-self: flex-start;
+    padding: 2rem;
+    margin: 0;
+}
+.numero-tel { 
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: baseline;
+    align-self: flex-start;
+    padding: 2rem;
+    margin: 0;
+}
+
+.Patita{
+    width: 10em;
+    padding: 1vw;
+    display: flex;
+    justify-self: center;
+    margin: 0;
+}
+.pata{ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-heroes { 
+    font-family: 'karla';
+    font-size: 5vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 5vw 3vw;
+    background: pink;
+    border-style: groove;
+
+}
+.encontraron-heroes { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 0.5vw;
+    margin: 2vw;
+    padding: 2vw;
+
+}
+.div-img-heroe{ 
+    display: flex;
+    justify-content: center;
+}
+.img-heroes { 
+    width: 28vw;
+    height: auto;
+}
+
+.animales-heroes { 
+    border: 0.3vw solid #B7526A;
+    width: 30vw;
+    height:auto;
+    
+    background-color: #B7526A;
+    border-radius: 6px;
+
+}
+.titulo-contactanos{ 
+    font-family: 'karla';
+    font-size: 5vw;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #B7526A ;
+    padding: 0;
+    background-color: #DB9BAE;
+    border-style: groove;
+    margin: 7vw 2vw;
+
+}
+.contactanos {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(5, 1fr);
+    margin: 2vw;
+    
+}
+.Img-contactanos {
+    width: 4vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    background:local;
+    margin: 0;
+    padding: 1vw;
+}
+.mapa { 
+    border:pink 0.2vw groove;
+    width: 42vw;
+    height: 80vh;
+    margin: 0rem 2vw; 
+    padding:0rem;
+    align-self: center;
+    grid-row-start: 1;
+    grid-row-end: end;
+
+}
+
+.ubicacion { 
+    grid-column: 2;
+    grid-row:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 2vw 0;
+
+}
+.direccion{ 
+    align-self: center;
+    padding: 0;
+}
+.numero-tel{ 
+    align-self: center;
+    padding: 0;
+}
+.telefono{
+    grid-column: 2;
+    grid-row:2; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2vh;
+}
+.email { 
+    
+    grid-column: 2;
+    grid-row:3; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2vh;
+}
+.instagram { 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-column: 2;
+    grid-row:4 ;
+    padding: 2vh 0;
+}
+.facebook{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    grid-column: 2;
+    grid-row:5;
+    padding: 2vh 0;
+}
+.link-contactanos { 
+    color: black;
+    font-size: 1.5vw;
+    padding: 0.2rem;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    text-decoration:none;
+    
+}
+
+/*adopcion*/ 
+.div-pag-adopta{ 
+    background-image: url(Imagenes/perrito3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+}
+.contenedor-div-adopcion{ 
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3vw;
+    margin: 0;
+    padding: 2vw;
+    row-gap: 4vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.div-titulo-adopcion{ 
+    margin: 3vw 0vw;
+    padding: 0vw;
+    display: flex;
+    justify-content: center;
+    place-items:end;
+    background-color: #DB9BAE;
+    color: #B7526A;
+    border: groove pink 0.2vw;
+}
+.titulo-pag-adopcion{ 
+    font-size: 5vw;
+    margin: 0;
+    padding: 0vw;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: justify;
+    font-family: 'Montserrat' ;
+
+}
+.subtitulo-adopcion{ 
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+}
+.div-adopcion { 
+    border: groove 1vw #B7526A;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-content: center;
+
+}
+/*fin pagina adopcion*/
+
+/*pagina traslados*/ 
+.titulo-traslados{ 
+margin: 0;
+font-size: 5vw;
+padding: 2vw;
+display: flex;
+justify-content: center;
+}
+.subtitulo-traslados{ 
+    font-size: 3vw;
+    margin: 0;
+    padding: 2vw;
+}
+.parrafo-traslados{ 
+font-family: 'Montserrat';
+font-size: 2vw;
+font-weight: 400;
+display: flex;
+justify-content: center;
+padding: 2vw;
+text-align: justify;
+}
+.titulo-formulario-traslados{ 
+    font-family: 'Montserrat';
+    font-size: 1.5vw;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    text-align: justify;
+}
+.formulario-traslados {
+    display:flex;
+    justify-content: center;
+    padding: 2vw;
+    
+}
+/*fin paginas traslados*/ 
+/*pagina transitos*/ 
+
+.titulo-transitos{ 
+    margin: 0;
+    font-size: 5vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    }
+    .subtitulo-transitos{ 
+        font-size: 3vw;
+        margin: 0;
+        padding: 2vw;
+    }
+    .parrafo-transitos{ 
+    font-family: 'Montserrat';
+    font-size: 2vw;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    text-align: justify;
+    }
+    .titulo-formulario-transitos{ 
+        font-family: 'Montserrat';
+        font-size: 1.5vw;
+        font-weight: 400;
+        display: flex;
+        justify-content: center;
+        padding: 2vw;
+        text-align: justify;
+    }
+    .formulario-transitos {
+        display:flex;
+        justify-content: center;
+        padding: 2vw;
+        
+    }
+/* fin pagina transitos*/ 
+
+/*pagina-contactanos*/
+.titulo-pag-contactanos{ 
+    margin: 0;
+    font-size: 5vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.subtitulo-contactanos{ 
+    font-size: 3vw;
+    margin: 0;
+    padding: 2vw;
+}
+.formulario-contactanos{ 
+    display:flex;
+    justify-content: center;
+    padding: 2vw;
+    
+}
+/*fin pagina contactanos*/
+/*pagina dona*/ 
+.titulo-principal-dona{ 
+    margin: 0;
+    font-size: 5vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.titulo-dona{ 
+    margin: 0;
+    font-size: 2.4vw;
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor-dona{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+}
+.descripcion-dona{ 
+font-size: 1vw;
+margin: 0;
+padding: 1vw;
+align-self: baseline;
+text-align: justify;
+}
+.donacion-mercadopago{ 
+font-size: 3vw;
+justify-content: center;
+padding:2vw;
+}
+.imagen-mercadopago{ 
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+
+}
+.div-dona{ 
+    border: solid 0.5vw salmon;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:start;
+    align-content: center
+}
+
+/*forms*/ 
+input {
+    font-family: 'Montserrat';
+    font-weight: 200;
+    
+    
+}
+label{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 2rem;
+}
+.form-adopcion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10vw;
+}
+/*fin.forms*/ 
+section div { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+}
+
+/*footer*/ 
+
+footer{
+    background-color: #B7526A;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-self: stretch;
+
+}
+.suscribir-email-footer{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items:flex-start;
+    row-gap: 1.5vw;
+    margin: 1vw;
+}
+.titulo-email{ 
+    font-size: 1.7vw;
+    color: blanchedalmond;
+    font-family: 'Karla';
+    font-weight: 200; 
+}
+.espacio-email{ 
+    display: flex;
+    justify-self:flex-start;
+}
+.input-footer{ 
+    width: 28vw;
+}
+.btn-footer{ 
+    width: 8vw;
+
+}
+footer nav ul a { 
+    font-size: 1.5vw;
+}
+.nav-footer{ 
+    display: flex;
+    justify-content: center;
+    padding: 4vw 0vw;
+}
+
+
+
+/*fin.footer*/
